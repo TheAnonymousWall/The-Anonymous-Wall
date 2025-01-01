@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Anonymous Notes</h1>
+        <p>Share your thoughts anonymously—but you can only post once!</p>
+    </header>
+    <main>
+        <form id="noteForm">
+            <textarea id="noteInput" placeholder="Write your anonymous note here..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="thank-you" id="thankYouMessage" style="display:none;">
+            <p>Thank you for sharing! You’ve already submitted your note, so you can’t post again.</p>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
